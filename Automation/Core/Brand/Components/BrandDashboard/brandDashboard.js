@@ -13,7 +13,7 @@ async function loadBrandDashboard(){
             setTimeout(resolve, ms)
           })
         }  
-        console.log('Hit');
+        console.log('Hit and return');
     await page.goto('https://www.brandscape.bungeetech.com/')
         
     await page.waitForSelector('#email')
