@@ -1,5 +1,5 @@
 //module.exports.loadBrandDashboard = loadBrandDashboard;
-const loadPageS = require('../../../Sellers/Components/loadPageS.js')
+//const loadPageS = require('../../../Sellers/Components/loadPageS.js')
 async function loadBrandDashboard(){
      console.log('logged in');
         const puppeteer = require('puppeteer');
@@ -28,10 +28,10 @@ async function loadBrandDashboard(){
           document.querySelector('button[class="btn btn-lg btn-block btn-primary mb-3"]').click();
       });
         //page = await brandSummary.loadBrandSummary();
-   page = await brandDashboard.loadBrandDashboard();
+   //page = await brandDashboard.loadBrandDashboard();
           await navigationPromise
-       loadPageS();   
-    return page;
+      // loadPageS();   
+    //return page;
    }
    loadBrandDashboard();
 //export default loadBrandDashboard;
